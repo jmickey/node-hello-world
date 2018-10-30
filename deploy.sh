@@ -28,8 +28,10 @@ then
     echo "Deployment complete!"
 
     # Echo important info
-    echo "\n\nDetails:"
-    echo "Public URL: ${public_url}\n\n"
+    echo ""
+    echo "Details:"
+    echo "Public URL: ${public_url}"
+    echo ""
 elif [ "$ARG" = "destroy" ]
 then
     echo "Destroying ALL Terraform Infrastructure. This cannot be undone. You can 5 seconds to cancel (CTRL-C)!"
